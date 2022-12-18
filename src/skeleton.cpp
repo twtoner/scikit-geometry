@@ -1,9 +1,7 @@
+#include "skgeom.hpp"
 #include <CGAL/create_straight_skeleton_2.h>
 #include <CGAL/create_straight_skeleton_from_polygon_with_holes_2.h>
 #include <CGAL/create_offset_polygons_2.h>
-
-typedef CGAL::Exact_predicates_inexact_constructions_kernel   Kernel;
-#define KERNEL_PRESCRIBED
 
 typedef CGAL::Straight_skeleton_2<Kernel> Skeleton_2;
 typedef std::shared_ptr<Skeleton_2>       Skeleton_2_Ref;

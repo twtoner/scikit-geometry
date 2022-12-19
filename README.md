@@ -57,3 +57,11 @@ It is built from Jupyter notebooks that can be found under the `/docs` subdirect
 ## License
 
 This software is licensed under the LGPL-3 license. See the [LICENSE](LICENSE) file for details.
+
+## Installation
+
+CGAL 5.0 must be available. Then run:
+
+```
+python3 -m pip install -e . -v
+```
